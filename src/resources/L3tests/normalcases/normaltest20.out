@@ -1,0 +1,13 @@
+Necessary:
+Error type 7 at Line 15: Type mismatched for operands.
+Error type 7 at Line 16: Type mismatched for operands.
+Error type 7 at Line 18: Type mismatched for operands.
+Error type 4 at Line 21: Redefined function "CalGPA".
+#:
+Replaceable:
+N0-->Error type 7 at Line 22: Type mismatched for operands.
+N1-->Error type 7 at Line 23: Type mismatched for operands.
+N2-->Error type 7 at Line 25: Type mismatched for operands.
+N3-->Error type 8 at Line 25: Type mismatched for return.
+N4-->Error type 4 at Line 14: Redefined function "CalGPA".
+#:

@@ -1,0 +1,13 @@
+struct Product{
+    int id;
+    float price;
+};
+
+struct Product products[10];
+struct Product aproduct;
+
+int main(){
+    products[0] = aproduct;
+    aproduct[0] = 10;
+    return 0;
+}

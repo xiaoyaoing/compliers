@@ -1,0 +1,19 @@
+struct Product{
+    int id;
+    float price;
+};
+
+int compareP(struct Product p1, struct Product p2){
+    if(p1.id > p2.id){
+        return 1;
+    }
+    else {
+        return 2;
+    }
+}
+
+
+int main(){
+    struct Product x;
+    return compareP(x, 1);
+}

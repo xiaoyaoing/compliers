@@ -1,0 +1,35 @@
+FUNCTION f :
+PARAM v0
+t5 := v0
+t2 := t5 + #0
+t3 := #0
+t3 := t3 * #4
+t1 := t2 + t3
+t2 := *t1
+t1 := t2
+WRITE t1
+t6 := #0
+RETURN t6
+FUNCTION main :
+DEC p 100
+READ t8
+t15 := &p
+t16 := #0
+t16 := t16 * #20
+t14 := t15 + t16
+t13 := t14 + #4
+t10 := t13 + #0
+t11 := #0
+t11 := t11 * #4
+t9 := t10 + t11
+*t9 := t8
+t7 := t8
+t21 := &p
+t22 := #0
+t22 := t22 * #20
+t20 := t21 + t22
+t19 := t20 + #4
+ARG t19
+t18 := CALL f
+t24 := #0
+RETURN t24

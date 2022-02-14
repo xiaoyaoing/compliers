@@ -1,0 +1,28 @@
+struct ProductA{
+    int Aid;
+    float Aprice;
+    int owner;
+};
+
+struct ProductB{
+    int Bid;
+    float Bprice;
+    int seller;
+};
+
+struct ProductA larger(struct ProductA pa, struct ProductB pb){
+    if(pa.Aid < pb.Bid){
+        return pb;
+    }
+    else{
+        return pa;
+    }
+}
+
+
+int main(){
+    struct ProductA temppa;
+    struct ProductB temppb;
+    temppb = larger(temppa, temppb);
+    return 0;
+}

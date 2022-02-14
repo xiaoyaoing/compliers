@@ -1,0 +1,26 @@
+struct GradeA{
+    int Acourceid;
+    float grade;
+    int Acredit;
+};
+
+struct GradeB{
+    int Bcourceid;
+    int level;
+    int Bcredit;
+};
+
+
+float CalGPA(struct GradeA A, float oldGPA, int sumcredit){
+    float oldscore = oldGPA * sumcredit;
+    oldscore = oldscore + A.grade * A.Acredit;
+    sumcredit = sumcredit + A.Acredit;
+    return oldscore / sumcredit;
+}
+
+float CalGPA(struct GradeB B, float oldGPA, int sumcredit){
+    float oldscore = oldGPA * sumcredit;
+    oldscore = oldscore + B.level * B.levelscore * B.Bcredit;
+    sumcredit = sumcredit + B.Bcredit;
+    return oldscore / sumcredit;
+}

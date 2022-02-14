@@ -1,0 +1,11 @@
+Error type 15 at Line 25: Initialized variable in struct field.
+Error type 15 at Line 28: Redefined field "S3825_m0_a1_S3823".
+Error type 6 at Line 36: The left-hand side of an assignment must be a variable.
+Error type 5 at Line 41: Type mismatched for assignment.
+Error type 2 at Line 45: Undefined function "i_func_2878".
+Error type 4 at Line 47: Redefined function "i_func_2827".
+Error type 16 at Line 66: Duplicated name "dup30".
+Error type 7 at Line 85: Type mismatched for operands.
+Error type 8 at Line 100: Type mismatched for return.
+Error type 17 at Line 104: Undefined structure "S3922".
+Error type 3 at Line 252: Redefined variable "redef_L930".

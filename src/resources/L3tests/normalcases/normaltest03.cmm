@@ -1,0 +1,15 @@
+struct Product{
+    int id;
+    float price;
+};
+
+int main(){
+    struct Product Product;
+    int aimid = 0;
+    if(Product.id >= 100){
+        if(aimid < Product.id){
+            aimid = Product.id;
+        }
+    }
+    return 0;
+}

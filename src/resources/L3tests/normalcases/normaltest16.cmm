@@ -1,0 +1,15 @@
+int Product;
+int Complex;
+struct Product{
+    int id;
+    float price;
+};
+
+struct Complex{
+    int real;
+    int image;
+};
+
+int main(){
+    return 0;
+}

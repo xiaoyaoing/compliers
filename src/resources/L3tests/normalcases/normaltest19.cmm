@@ -1,0 +1,17 @@
+struct VecA{
+    int aint;
+    int Aarray[10];
+};
+
+struct VecB{
+    int Barray[10];
+    int bint;
+};  
+
+
+int main(){
+    struct VecA va;
+    struct VecB vb;
+    vb = va;
+    return 0;
+}

@@ -1,0 +1,21 @@
+struct Score
+{
+  int mathScore[2];
+  int physicsScore[2];
+};
+struct person{
+ int id;
+ struct Score s;
+};
+int f(struct Score t){
+ write(t.mathScore[0]);
+ return 0;
+}
+
+
+int main(){
+    struct person p[5];
+    p[0].s.mathScore[0]=read();
+    f(p[0].s);
+    return 0;
+}

@@ -1,0 +1,20 @@
+
+struct Product{
+    int id;
+    float price;
+};
+
+struct Project{
+    int managerid;
+    int deadline;
+};
+
+
+int main(){
+    struct Product product;
+    struct Project project;
+    product.id = 1;
+    product.price = 100.0;
+    project = product;
+    return 0;
+}

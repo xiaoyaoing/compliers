@@ -1,0 +1,8 @@
+Error type 15 at Line 68: Redefined field "S4370_m0_i".
+Error type 15 at Line 72: Initialized variable in struct field.
+Error type 6 at Line 92: The left-hand side of an assignment must be a variable.
+Error type 2 at Line 96: Undefined function "i_func_3173".
+Error type 4 at Line 101: Redefined function "i_func_3170".
+Error type 16 at Line 138: Duplicated name "dup34".
+Error type 8 at Line 161: Type mismatched for return.
+Error type 5 at Line 201: Type mismatched for assignment.

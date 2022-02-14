@@ -1,0 +1,6 @@
+Necessary:
+Error type 4 at Line 19: Redefined function "vec_is_equal".
+#:
+Replaceable:
+N0-->Error type 4 at Line 9: Redefined function "vec_is_equal".
+#:

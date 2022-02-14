@@ -1,0 +1,22 @@
+struct Product{
+    int id;
+    float price;
+};
+
+struct Product products1[10];
+struct Product products2[10];
+struct Product products3[10];
+struct Product products4[10];
+
+
+int main(){
+    int Flag;
+    int index = 0;
+    if(Flag == 1){
+        products1[index] = products2[index];
+    }
+    else{
+        products3[index] = products4[1.5];
+    }
+    return 0;
+}

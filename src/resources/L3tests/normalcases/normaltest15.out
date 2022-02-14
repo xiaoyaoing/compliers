@@ -1,0 +1,6 @@
+Necessary:
+Error type 15 at Line 2: Initialized variable in struct field.
+Error type 15 at Line 10: Redefined field "real".
+#:
+Replaceable:
+#:

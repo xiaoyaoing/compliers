@@ -1,0 +1,17 @@
+struct Product{
+    int id;
+    float price;
+};
+struct Product products[5];
+int array[10];
+
+int main(){
+    int x = x + array;
+    array[0] = x + 100;
+    if(x > 100){
+        products[0] + array[0];
+    }
+    else{
+        products + array;
+    }
+}

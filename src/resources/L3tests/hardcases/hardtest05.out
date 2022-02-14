@@ -1,0 +1,11 @@
+Error type 15 at Line 18: Initialized variable in struct field.
+Error type 15 at Line 19: Redefined field "S3570_m1_i".
+Error type 2 at Line 27: Undefined function "i_func_2668".
+Error type 14 at Line 30: Non-existent field "S3569_i20".
+Error type 1 at Line 32: Undefined variable "l1550".
+Error type 4 at Line 35: Redefined function "i_func_2657".
+Error type 16 at Line 58: Duplicated name "dup28".
+Error type 3 at Line 64: Redefined variable "redef_L805".
+Error type 9 at Line 69: Function "i_func_2738" is not applicable for arguments.
+Error type 6 at Line 80: The left-hand side of an assignment must be a variable.
+Error type 8 at Line 138: Type mismatched for return.

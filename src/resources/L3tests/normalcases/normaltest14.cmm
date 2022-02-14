@@ -1,0 +1,12 @@
+struct Product{
+    int id;
+    float price;
+};
+
+struct Product aproduct;
+
+int ma(){
+    aproduct.Id = 1;
+    aproduct.price = 1.2;
+    return 0;
+}

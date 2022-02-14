@@ -1,0 +1,18 @@
+
+int add (int x, int y){
+    return x + y;
+}
+
+
+int main(){
+    int ans;
+    int num1 = 0;
+    10 = num1;
+    if(num1 >= 100){
+        ans = add(num1, 10);
+    }
+    else {
+        add(num1, 10) = 10;
+    }
+    return 0;
+}
